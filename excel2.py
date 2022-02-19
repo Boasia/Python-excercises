@@ -30,7 +30,7 @@ for row in range(1, 11):
         sheet.cell(row_no, column_no, row * col).border = thin_border
         row_no += 1
 
-    # po wypełnieniu kolumnyprzechodzę do kolejnej:
+    # po wypełnieniu kolumny przechodzę do kolejnej:
     column_no += 1
     #zeruje wartośc zmiennej, by znów zaczął uzupełniać od góry do dołu:
     row_no = 2
